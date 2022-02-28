@@ -1,0 +1,104 @@
+name: flutter_app1
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  dependencies:
+ 
+  flutter_staggered_animations:
+  list_date_picker: 
+  custom_cupertino_date_textbox:
+  cool_alert:
+  select_form_field:
+  dropdown_below:
+  animated_button: 
+  image_picker_widget: 
+  page_transition:
+  bottom_navy_bar:
+  search_page:
+  dropdown_search:
+  filter_list: 
+  convex_bottom_bar:
+  loading_animations:
+  carousel_extended:
+  flutter_easyloading: 
+  http_parser: 
+  dio: 
+  multi_image_picker:
+  like_button: 
+  pull_to_refresh:
+  syncfusion_flutter_datepicker: 
+  intl:
+  checkbox_formfield: 
+  datetime_picker_formfield:
+  rflutter_alert: 
+  shared_preferences: 
+  flutter_calendar_carousel: 
+  image_picker: 
+  flutter_search_bar:
+  provider: 
+  flutter_session:
+  google_maps_flutter:
+  flutter_map:
+  http:
+  fluttertoast: 
+  google_fonts:
+  dropdown_formfield:
+  carousel_slider: 
+  flutter_datetime_picker: 
+  dropdownfield: 
+  division: 
+  pluto_menu_bar: 
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  flutter_bloc: ^2.1.1
+
+
+dev_dependencies:
+ 
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+
+ 
+  uses-material-design: true
+
+  assets:
+    - assets/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: Roboto
+       fonts:
+         - asset: fonts/Roboto-Bold.ttf
+           weight: 700
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+     - family: Exo
+       fonts:
+         - asset: fonts/Exo2-Italic-VariableFont_wght.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+           weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
